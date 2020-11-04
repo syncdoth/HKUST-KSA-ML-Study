@@ -1,0 +1,13 @@
+answer.txt
+
+Exercise 1:
+[[[0 for _ in range(n)] for _ in range(n)] for _ in range(n)]
+
+Exercise 2:
+{' '.join([first, last]): i for i, (first, last) in enumerate(zip(first_names, sorted(last_names)))}
+
+Exercise 3:
+print(sorted(a, key=lambda s: s[-1]))
+
+Exercise 4:
+{k:v for k, v in sorted(d.items(), key=lambda x: x[1])}
