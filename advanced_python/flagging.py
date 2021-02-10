@@ -10,7 +10,7 @@ def main(args):
     del args
 
     print(FLAGS.Hello)
-
+    print("test")
 
 if __name__ == "__main__":
     app.run(main)
